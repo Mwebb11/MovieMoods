@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Movie Moods</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Reset.CSS -->
+    <link rel="stylesheet" type="text/css" media="screen" href="./profile-index/assets/css/reset.css" />
+    <!-- BootStrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" media="screen" href="./profile-index/assets/css/style.css" />
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+
+
+
+</head>
+
+<body>
+
+
+    <!-- BEGIN BANNER/NAVBAR -->
+    <header role="banner">
+        <div class="mx-auto" style="width: 200px;">
+            <!-- CUSTOM LOGO -->
+            <div id="cd-logo">
+                <a href="#0">
+                    <img src="./profile-index/assets/images/logo.png" alt="Logo">
+                </a>
+            </div>
+        </div>
+        <nav class="main-nav">
+            <ul>
+
+
+                <!-- BEGIN MOOD SELECTOR DROPDOWN -->
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">Tell us your mood</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <!-- HAPPY BUTTON -->
+                        <a id="happy" class=h ref="#">Happy
+                            <img src="https://bit.ly/2wK198B" style="float:right;width:18px;height:18px;" alt="happyFace"
+                            />
+                        </a>
+                        <!-- SAD button -->
+                        <a id="sad" class=h ref="#">Sad
+                            <img src="https://bit.ly/2Ispnpg" style="float:right;width:18px;height:18px;" alt="sadFace" />
+                        </a>
+                        <!-- MAD button -->
+                        <a id="mad" class=h ref="#">Mad
+                            <img src="https://bit.ly/2Irhvs3" style="float:right;width:18px;height:18px;" alt="madFace" />
+                        </a>
+                        <!-- CONTEMPLATIVE button -->
+                        <a id="contemplative" class=h ref="#">Conplentative
+                            <img src="https://bit.ly/2L5mFYs" style="float:right;width:18px;height:18px;" alt="thinkFace"
+                            />
+                        </a>
+                    </div>
+                </div>
+            </ul>
+            <!-- END mood selector button -->
+        </nav>
+        <!-- END nav bar -->
+
+        <!-- PAGE HTML -->
+
+
+
+        <body class="index-page"></body>
+        <div class="header">
+            <div class="container">
+                <div class="row">
+                    <!-- This is where the user's name and favorite movie are supposed to be displayed -->
+                    <div class="username">
+                        <div class="col-md-12 col-lg-12 col-sm-12 text-left">
+                            <h2>Thomas Mosley</h2>
+                            <h4>Jurassic Park</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END User information div -->
+
+
+
+        <!-- This div is supposed to have all of the movies that the users have selected to add to their saved movies -->
+        <div class="main main-raised">
+            <div class="section section-basic">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2>Your saved movies</h2>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <!-- These are 4 random movies used for styling -->
+                                    <img class="img-rounded img-responsive img-raised" src="./profile-index/assets/images/poster1.jpg">
+                                    <a href="#">
+                                </div>
+
+                                <div class="col-md-3">
+                                    <img class="img-rounded img-responsive img-raised" src="./profile-index/assets/images/poster2.jpg">
+                                    <a href="#">
+                                </div>
+
+                                <div class="col-md-3">
+                                    <img class="img-rounded img-responsive img-raised" src="./profile-index/assets/images/poster3.jpg">
+                                    <a href="#">
+                                </div>
+
+                                <div class="col-md-3">
+                                    <img class="img-rounded img-responsive img-raised" src="./profile-index/assets/images/poster4.jpg">
+                                    <a href="#">
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- END saved movies div -->
+
+
+
+
+
+        <!--Footer-->
+        <footer class="page-footer font-small bg-dark text-light pt-0">
+
+            <div style="background-color: #6351ce;">
+                <div class="container-fluid bg-secondary">
+                    <!--Grid row-->
+                    <div class="row py-4 d-flex align-items-center">
+
+                        <!--Grid column-->
+                        <div class="col-md-6 col-lg-5 bg-secondary text-center text-md-left mb-4 mb-md-0">
+                            <h6 class="mb-0 white-text">Get connected with us on our social networks!</h6>
+                        </div>
+                        <!--Grid column-->
+
+
+
+                    </div>
+                    <!--Grid row-->
+                </div>
+            </div>
+
+            <!--Footer Links-->
+            <div class="container mt-5 mb-4 bg-dark text-center text-md-left">
+                <div class="row mt-3">
+
+                    <!--First column-->
+                    <!-- app synopsis -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+                        <h6 class="text-uppercase">
+                            <strong>MovieMoods</strong>
+                        </h6>
+                        <hr class="red accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                        <p>
+                            <em>We are just four guys with a love of movies.</p>
+                        <p> We found that when picking a movie to watch, we were doing more scrolling than we were watching.
+                            Our goal with MovieMood is to make finding a movie easier.</em>
+                        </p>
+                    </div>
+                    <!--/.First column-->
+
+                    <!--First column-->
+                    <!-- Thomas's contact information -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h6 class="text-uppercase font-weight-bold">
+                            <strong>Thomas Mosley</strong>
+                        </h6>
+
+                        <hr class="red accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                        <p>
+                            <!-- LinkedIn profile -->
+                            <a href="https://www.linkedin.com/in/tyler-jenkins-834a5b4b/" target="_blank">LinkedIn</a>
+                        </p>
+                        <p>
+                            <!-- GIThub -->
+                            <a href="https://github.com/TyPhyter" target="_blank">GitHub</a>
+                        </p>
+                    </div>
+
+
+
+                    <!--Second column-->
+                    <!-- Merritt's contact information -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h6 class="text-uppercase font-weight-bold">
+                            <strong>Merritt Webb</strong>
+                        </h6>
+
+                        <hr class="red accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                        <p>
+                            <!-- LINKED IN -->
+                            <a href="https://www.linkedin.com/in/tyler-jenkins-834a5b4b/" target="_blank">LinkedIn</a>
+                        </p>
+                        <p>
+                            <!-- GITHUB -->
+                            <a href="https://github.com/TyPhyter" target="_blank">GitHub</a>
+                        </p>
+                    </div>
+                    <!--/.Second column-->
+
+                    <!--Third column-->
+                    <!-- LUIS'S contact information -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h6 class="text-uppercase font-weight-bold">
+                            <strong>Luis Salazar</strong>
+                        </h6>
+                        <hr class="red accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                        <p>
+                            <!-- LINKED IN -->
+                            <a href="#!" target="_blank">LinkedIn</a>
+                        </p>
+                        <p>
+                            <!-- GITHUB -->
+                            <a href="https://github.com/vluizang3l888v" target="_blank">GitHub</a>
+                        </p>
+                    </div>
+                    <!--/.Third column-->
+
+                    <!--Fourth column-->
+                    <div class="col-md-4 col-lg-3 col-xl-3">
+                        <h6 class="text-uppercase font-weight-bold">
+                            <strong>Tanner Chmielewski</strong>
+                        </h6>
+                        <hr class="red accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                        <p>
+                            <a href="https://www.linkedin.com/in/tannerc/ " target="_blank">LinkedIn</a>
+                        </p>
+                        <p>
+                            <a href="https://github.com/tannerchm" target="_blank">GitHub</a>
+                        </p>
+                    </div>
+                    <!--/.Fourth column-->
+
+                </div>
+            </div>
+            <!--/.Footer Links-->
+
+            <!-- Copyright-->
+            <div class="footer-copyright py-3 text-center">
+                © 2018 Copyright:
+                <a href="moviemood.com">
+                    <strong> MovieMood.com</strong>
+                </a>
+            </div>
+            <!--/.Copyright -->
+
+        </footer>
+        <!--/.Footer-->
+
+
+
+
+
+
+        <!-- Custom Java -->
+        <script src="./profile-index/assets/javascript/app.js"></script>
+</body>
